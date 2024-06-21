@@ -14,7 +14,7 @@ for (let contador = 0; contador < listaDeTeclas.length; contador++) {
     };
 
     tecla.onkeydown = function (event) {
-        if (event.code === 'Space' || event.code === 'Enter' ) {
+        if (event.code === 'Space' || event.code === 'Enter' ) { // adição da operador lógico OU (||)
             tecla.classList.add('ativa');
         }
     }
